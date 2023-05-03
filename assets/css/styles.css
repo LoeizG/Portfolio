@@ -245,13 +245,29 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: .75rem 2.5rem;
+  padding: .75rem 2rem;
+  margin-right: 1rem;
   font-weight: var(--font-semi);
+  border-radius: .5rem;
+  transition: .3s;
+}
+.button_D{
+  display: inline-block;
+  background-color:#fff;
+  color:  var(--first-color);
+  padding: 1rem 2.5rem;
+  border: 1px solid var(--first-color);
+  margin-right: 1rem;
+  font-weight: 800;
   border-radius: .5rem;
   transition: .3s;
 }
 
 .button:hover {
+  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+}
+.button_D:hover {
+  cursor: pointer;
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
 }
 
